@@ -59,8 +59,8 @@ $sec = "5";
  			$time = $dateTime->format('U');
 
  			$seq = $json->result->info->validated_ledger->seq;
- 			/* Append output in data.txt file */
- 			$file = 'data.txt';
+ 			/* Append output in data.v2.txt file */
+ 			$file = 'data.v2.txt';
  			$current = file_get_contents($file);
  			$current .= $time . "," . $seq . "\n";
  			file_put_contents($file, $current);
@@ -70,7 +70,7 @@ $sec = "5";
 
  		/* Populates data.txt values in $graph_data array */
  		$graph_data = array();
- 		$handle = fopen("data.txt", "r");
+ 		$handle = fopen("data.v2.txt", "r");
  		if ($handle) {
  			$i=0;
  			while (($line = fgets($handle)) !== false) {
