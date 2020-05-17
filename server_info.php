@@ -22,7 +22,7 @@ $sec = "5";
 	</style>
 </head>
 <body>
-		<div class="container">
+	<div class="container">
 		<h1>Ripple - IE Tech Challenge</h1>
 		<h2>server_info</h2>		
 		<?php 
@@ -59,10 +59,13 @@ $sec = "5";
  			$time = $dateTime->format('U');
 
  			$seq = $json->result->info->validated_ledger->seq;
+ 			$converge_time_s = $json->result->info->last_close->converge_time_s;
+
+
  			/* Append output in data.txt file */
  			$file = 'data.txt';
  			$current = file_get_contents($file);
- 			$current .= $time . "," . $seq . "\n";
+ 			$current .= $time . "," . $seq . ",". $converge_time_s . "\n";
  			file_put_contents($file, $current);
  		}
 
@@ -79,12 +82,20 @@ $sec = "5";
  				$epochtime = $dt->format('d/m/Y H:i:s');
  				$graph_data [$i] = array(
  					1 => $epochtime,
- 					2 => $data[1]
+ 					2 => $data[1],
+ 					3 => $data[2]					
  				);
  				$i++;
  			}
  			fclose($handle);
  		} else {}
+
+ 		// Min/Max/Average times
+		$min = min(array_column($graph_data, '3'));
+		$max = max(array_column($graph_data, '3'));
+ 		$avg_temp = array_sum(array_column($graph_data, '3')) / count(array_column($graph_data, '3'));
+ 		$avg = number_format($avg_temp, 3, '.', '');
+ 		echo "<ul>" ."<li>min: " . $min . "</li><li>max: " . $max . "</li><li>avg: " . $avg . "</li></ul>"
  		?>
 
  		<div>
