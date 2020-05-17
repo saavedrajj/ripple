@@ -55,7 +55,10 @@ Give an example
 ## Built With
 
 * [PHP](https://www.php.net) - The programming language used
+* HTML5 - Markup language
+* [Bootstrap](https://getbootstrap.com/) - CSS responsive framework
 * [ChartJS](https://www.chartjs.org/) - Plot charting library
+
 
 ## Authors
 
