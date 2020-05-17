@@ -14,11 +14,15 @@ You need to be running PHP 5.4+ on a web server.
 ### Installing
 
 * [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository in a folder of your local webserver
-* Mofify the file persmission of the data.txt as follows: chmod -R 777 data.txt
+* Modify the file persmission of the data.txt as follows: chmod -R 777 data.txt
 
-## Running the code
+### Running the code
 
-Explain how to run the automated tests for this system
+This code is intented to use in a browser as shows a
+
+* Make sure your webserver is running as a server
+* With your browser open the web folder that includes the server_info.php file
+* Open the server_info.php 
 
 
 ## Built With
