@@ -1,15 +1,15 @@
-# Project Title
+# Ripple - IE Tech Challenge
 
 One Paragraph of project description goes here
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Write a script/program that periodically calls rippled’s server_info command and records the sequence number of the latest validated ledger along with the current time. Record this data in a file. Then, use this data to construct a plot (time on the x-axis, sequence number on the y-axis) that visualizes how frequently the ledger sequence is incremented over time (i.e. how often new ledgers are validated). Choose a time span and polling interval that can effectively capture and depict this information
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
-chmod -R 777 ./
+
 
 ```
 Give examples
@@ -20,6 +20,8 @@ Give examples
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
+
+chmod -R 777 ./
 
 ```
 Give the example
