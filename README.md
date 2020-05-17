@@ -26,7 +26,7 @@ This script is intented for using in a we browser.
 
 ## Built With
 
-* [PHP](https://www.php.net) - The programming language used
+* [PHP](https://www.php.net) - General-purpose scripting language that is especially suited to web development.
 * [cURL](https://curl.haxx.se/) - library for transferring data with URLs
 * HTML5 - Markup language
 * [Bootstrap](https://getbootstrap.com/) - CSS responsive framework
