@@ -9,28 +9,14 @@ The server_info.php PHP script periodically calls rippled’s server_info comman
 You need to be running PHP 5.4+ on a web server.
 
 
-* Operating System: Linux, Unix, Windows
+* Operating System: Linux, Unix, Windows, MacOS
 * Web Server: Apache Web Server, LigHTTPD, IIS (with ISAPI_Rewrite installed)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+* Clone this repository in your a folder of your local webserver
 
-Say what the step will be
-
-chmod -R 777 ./
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+* chmod -R 777 ./
 
 ## Running the tests
 
