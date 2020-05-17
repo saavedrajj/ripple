@@ -11,7 +11,7 @@ You need to be running PHP 5.4+ on a web server.
 * Operating System: Linux, Unix, Windows, MacOS
 * Web Server: Apache Web Server, LigHTTPD, IIS (with ISAPI_Rewrite installed)
 
-### Installing
+### Installation
 
 * [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository in a folder of your local webserver
 * Modify the file persmission of the `data.txt` as follows: chmod -R 777 data.txt
