@@ -31,6 +31,6 @@ This script is intented for using in a we browser.
 * [Bootstrap](https://getbootstrap.com/) - CSS responsive framework
 * [ChartJS](https://www.chartjs.org/) - Plot charting library
 
-## Authors
+## Author
 
 * Juan Saavedra - [Github](https://github.com/saavedrajj)
