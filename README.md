@@ -7,15 +7,20 @@ The server_info.php PHP script periodically calls rippled’s server_info comman
 ### Prerequisites
 
 You need to be running PHP 5.4+ on a web server.
-Operating System: Linux, Unix, Windows
-Web Server: Apache Web Server, LigHTTPD, IIS (with ISAPI_Rewrite installed)
+
+
+* Operating System: Linux, Unix, Windows
+* Web Server: Apache Web Server, LigHTTPD, IIS (with ISAPI_Rewrite installed)
+
+
+
 
 1. A numbered list
               1. A nested numbered list
               2. Which is numbered
           2. Which is numbered
 
-          
+
 ```
 Give examples
 ```
