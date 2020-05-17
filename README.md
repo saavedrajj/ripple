@@ -12,19 +12,6 @@ You need to be running PHP 5.4+ on a web server.
 * Operating System: Linux, Unix, Windows
 * Web Server: Apache Web Server, LigHTTPD, IIS (with ISAPI_Rewrite installed)
 
-
-
-
-1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
-
-
-```
-Give examples
-```
-
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
