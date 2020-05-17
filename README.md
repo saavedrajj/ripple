@@ -14,10 +14,10 @@ You need to be running PHP 5.4+ on a web server.
 
 ### Installing
 
-* Clone this repository in your a folder of your local webserver
+* Clone this repository in a folder of your local webserver
 
 * Make sure the data.txt is writable
-** chmod -R 777 ./
+	* chmod -R 777 ./
 
 ## Running the code
 
