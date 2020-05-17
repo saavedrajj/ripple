@@ -58,11 +58,9 @@ Give an example
 * [PHP](https://www.php.net) - The programming language used
 * [ChartJS](https://www.chartjs.org/) - Plot charting library
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Juan Saavedra** - *Initial work* - [Github](https://github.com/saavedrajj)
+* **Juan Saavedra** - [Github](https://github.com/saavedrajj)
 
 ## License
 
