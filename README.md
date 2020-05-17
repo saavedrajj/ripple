@@ -8,16 +8,13 @@ The server_info.php PHP script periodically calls rippled’s server_info comman
 
 You need to be running PHP 5.4+ on a web server.
 
-
 * Operating System: Linux, Unix, Windows, MacOS
 * Web Server: Apache Web Server, LigHTTPD, IIS (with ISAPI_Rewrite installed)
 
 ### Installing
 
 * [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository in a folder of your local webserver
-* Make sure the data.txt is writable:
-	* chmod -R 777 data.txt
-	* 
+* Mofify the file persmission of the data.txt as follows: chmod -R 777 data.txt
 
 ## Running the code
 
@@ -34,9 +31,4 @@ Explain how to run the automated tests for this system
 
 ## Authors
 
-* **Juan Saavedra** - [Github](https://github.com/saavedrajj)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+* Juan Saavedra - [Github](https://github.com/saavedrajj)
