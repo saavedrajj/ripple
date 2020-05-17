@@ -16,27 +16,13 @@ You need to be running PHP 5.4+ on a web server.
 
 * Clone this repository in your a folder of your local webserver
 
-* chmod -R 777 ./
+* Make sure the data.txt is writable
+** chmod -R 777 ./
 
-## Running the tests
+## Running the code
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Built With
 
