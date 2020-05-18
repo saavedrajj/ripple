@@ -8,8 +8,8 @@ The `server_info.php` PHP script periodically calls rippled’s server_info comm
 
 You need to be running PHP 5.4+ on a web server.
 
-* Operating System: Linux, Unix, Windows, MacOS
-* Web Server: Apache Web Server, LigHTTPD, IIS (with ISAPI_Rewrite installed)
+* Operating System: Linux, Unix, Windows, MacOS.
+* Web Server: Apache Web Server, LigHTTPD, IIS (with ISAPI_Rewrite installed).
 
 ### Installation
 
@@ -23,8 +23,8 @@ $ chmod -R 777 data.txt
 
 This script is intented for using in a web browser. 
 
-* Make sure your webserver is running as a server
-* Open the web folder that includes the `server_info.php` file
+* Make sure your webserver is running as a service.
+* Open the web folder that includes the `server_info.php` file.
 * Select the `server_info.php` file.
 
 ## Built With
