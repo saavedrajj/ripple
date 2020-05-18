@@ -14,7 +14,10 @@ You need to be running PHP 5.4+ on a web server.
 ### Installation
 
 * [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository in a folder of your local webserver
-* Modify the `data.txt` file persmissions as follows: chmod -R 777 data.txt
+* Modify the `data.txt` file persmissions as follows: 
+```
+$ chmod -R 777 data.txt
+```
 
 ### Running the code
 
