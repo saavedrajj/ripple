@@ -30,7 +30,7 @@ This script is intented for using in a web browser.
 ## Built With
 
 * [PHP](https://www.php.net) - General-purpose scripting language especially suited to web development.
-* [cURL](https://curl.haxx.se/) - library for transferring data with URLs.
+* [cURL](https://curl.haxx.se/) - Library for transferring data with URLs.
 * HTML5 - Markup language.
 * [Bootstrap](https://getbootstrap.com/) - CSS responsive framework.
 * [ChartJS](https://www.chartjs.org/) - JavaScript Plot charting library.
