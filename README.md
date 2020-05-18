@@ -33,7 +33,7 @@ This script is intented for using in a web browser.
 * [cURL](https://curl.haxx.se/) - library for transferring data with URLs.
 * HTML5 - Markup language.
 * [Bootstrap](https://getbootstrap.com/) - CSS responsive framework.
-* [ChartJS](https://www.chartjs.org/) - Plot charting library.
+* [ChartJS](https://www.chartjs.org/) - JavaScript Plot charting library.
 
 ## Author
 
