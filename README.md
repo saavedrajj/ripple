@@ -21,7 +21,7 @@ $ chmod -R 777 data.txt
 
 ### Running the code
 
-This script is intented for using in a we browser. 
+This script is intented for using in a web browser. 
 
 * Make sure your webserver is running as a server
 * Open the web folder that includes the `server_info.php` file
